@@ -16,11 +16,17 @@ public class LoginHelper {
 	 * @return
 	 */
 	public boolean isGreater(int num1, int num2){
-		System.out.println(num1);
-		System.out.println(num2);
-		System.out.println(num1+num2);
-		// number of lines
-		
+		methodTest(num1,num2);
         return num1 > num2;
     }
+
+	private void methodTest(int num1, int num2) {
+		// TODO Auto-generated method stub
+		
+		System.out.println(num1);
+		System.out.println(num2);
+		
+	}
+	
+	
 }
