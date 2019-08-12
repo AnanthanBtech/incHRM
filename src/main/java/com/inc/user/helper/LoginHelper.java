@@ -21,6 +21,10 @@ public class LoginHelper {
 		System.out.println(num1+num2);
 		// number of lines
 		
+		
+		System.out.println(num2);
+		System.out.println(num1+num2);
+		// number of lines
         return num1 > num2;
     }
 }
