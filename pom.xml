@@ -82,19 +82,25 @@
 		</dependency>
 		
 		<dependency>
-    <groupId>net.sourceforge.cobertura</groupId>
-    <artifactId>cobertura</artifactId>
-    <version>2.0.1</version>
-    <scope>test</scope>
-</dependency>
+			<groupId>net.sourceforge.cobertura</groupId>
+			<artifactId>cobertura</artifactId>
+			<version>2.0.1</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+    		<groupId>xmlunit</groupId>
+    		<artifactId>xmlunit</artifactId>
+   			<version>1.4</version>
+		</dependency>
 
-<dependency>
-   <groupId>com.sun</groupId>
-   <artifactId>tools</artifactId>
-   <version>1.8</version>
-   <scope>system</scope>
-   <systemPath>C:\Program Files\Java\jdk1.8.0_211\lib\tools.jar</systemPath>
- </dependency>
+		<dependency>
+		   <groupId>com.sun</groupId>
+		   <artifactId>tools</artifactId>
+		   <version>1.8</version>
+		   <scope>system</scope>
+		   <systemPath>C:\Program Files\Java\jdk1.8.0_211\lib\tools.jar</systemPath>
+		 </dependency>
 
 	</dependencies>
 	
@@ -117,7 +123,6 @@
         <version>2.7</version>
       </plugin>
 		</plugins>
-
 	</build>
 	
 	<reporting>
@@ -126,35 +131,13 @@
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>cobertura-maven-plugin</artifactId>
             <version>2.7</version>
-        </plugin>
-    </plugins>
-</reporting>
-	<!-- <reporting>
-  <plugins>
-	Normally, we take off the dependency report, saves time.
-	<plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-project-info-reports-plugin</artifactId>
-		<version>2.7</version>
-		<configuration>
-			<dependencyLocationsEnabled>false</dependencyLocationsEnabled>
-		</configuration>
-	</plugin>
-
-	integrate maven-cobertura-plugin to project site 
-	<plugin>
-		<groupId>org.codehaus.mojo</groupId>
-		<artifactId>cobertura-maven-plugin</artifactId>
-		<version>2.6</version>
-		<configuration>
+            <configuration>
 			<formats>
 				<format>html</format>
 				<format>xml</format>
 			</formats>
 		</configuration>
-	</plugin>
-
-   </plugins>
-</reporting> -->
-
+        </plugin>
+    </plugins>
+</reporting>
 </project>
