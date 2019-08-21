@@ -3,7 +3,7 @@
     
     
     
-    <wb-module deploy-name="SpringSecurityDBAuthentication">
+    <wb-module deploy-name="incHRM">
                                         
         
         
@@ -29,7 +29,7 @@
         
         
         <property name="java-output-path" value="target/classes"/>
-        <property name="context-root" value="SpringSecurityDBAuthentication"/>
+        <property name="context-root" value="incHRM"/>
                                 	
     
     
