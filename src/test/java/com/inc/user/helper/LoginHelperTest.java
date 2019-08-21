@@ -18,19 +18,32 @@ import org.junit.Test;
 public class LoginHelperTest {
 
 	
-	  @BeforeClass public static void beforeClass() {
-	  System.out.println("Before Class"); }
+	  @BeforeClass 
+	  public static void beforeClass() {
+		  System.out.println("Before Class"); 
+	  }
 	  
-	  @Before public void before() { System.out.println("Before Test Case"); }
+	  @Before public void before() { 
+		  System.out.println("Before Test Case"); 
+	  }
 	  
-	  @Test public void isGreaterTest() { System.out.println("Test"); LoginHelper
-	  loginHelper = new LoginHelper(); assertTrue("Num 1 is greater than Num 2",
-	  loginHelper.isGreater(4, 3)); }
+	  @Test 
+	  public void isGreaterTest() { 
+		  System.out.println("Test"); LoginHelper
+		  loginHelper = new LoginHelper(); 
+		  assertTrue("Num 1 is greater than Num 2",
+		  loginHelper.isGreater(4, 3)); 
+	  }
 	  
-	  @After public void after() { System.out.println("After Test Case"); }
+	  @After 
+	  public void after() { 
+		  System.out.println("After Test Case"); 
+	  }
 	  
-	  @AfterClass public static void afterClass() {
-	  System.out.println("After Class"); }
-	 
+	  @AfterClass 
+	  public static void afterClass() {
+		  System.out.println("After Class"); 
+	  }
+	
 
 }

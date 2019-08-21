@@ -41,13 +41,14 @@ public class LoginHelper {
 		System.out.println(num1+num2);
         return num1 > num2;
     }
+	
 
 	/**
 	 * 
 	 * @param num1
 	 * @param num2
 	 */
-	private void testEnvironment(int num1, int num2) {
+	void testEnvironment(int num1, int num2) {
 		// TODO Auto-generated method stub
 		System.out.println(num2);
 		System.out.println(num1+num2);
