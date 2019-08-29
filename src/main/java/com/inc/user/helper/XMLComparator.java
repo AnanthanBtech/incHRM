@@ -20,9 +20,16 @@ public class XMLComparator {
     public static void main(String args[]) throws FileNotFoundException, 
                                                   SAXException, IOException {
      
-        // reading two xml file to compare in Java program
-        FileInputStream fis1 = new FileInputStream("D:/CareerProject/report/coverage.xml");
-        FileInputStream fis2 = new FileInputStream("D:/CareerProject/incHRM/target/site/cobertura/coverage.xml");
+    	  FileInputStream fis1 = new FileInputStream("D:/CareerProject/report/jacoco.xml");
+		  FileInputStream fis2 = new FileInputStream("D:/CareerProject/latest-report/jacoco.xml");
+		 
+		/*
+		 * FileInputStream fis1 = new
+		 * FileInputStream("D:/CareerProject/report/target/site/cobertura/coverage.xml")
+		 * ; FileInputStream fis2 = new
+		 * FileInputStream("D:/CareerProject/incHRM/target/site/cobertura/coverage.xml")
+		 * ;
+		 */
      
         // using BufferedReader for improved performance
         BufferedReader  source = new BufferedReader(new InputStreamReader(fis1));
