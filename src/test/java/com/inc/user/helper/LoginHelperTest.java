@@ -11,6 +11,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import com.inc.user.helper.*;
+import com.inc.user.utility.Testing;
 
 /**
  * @author apoongavanam
@@ -44,6 +45,13 @@ public class LoginHelperTest {
 	  @AfterClass 
 	  public static void afterClass() {
 		  System.out.println("After Class"); 
+	  }
+	  
+	  @Test 
+	  public void isTesting() { 
+		  Testing test = new Testing();
+		  System.out.println("Test"); 
+		 assertTrue("Ananthan", test.methodData());
 	  }
 	
 
