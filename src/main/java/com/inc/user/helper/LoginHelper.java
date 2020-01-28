@@ -45,9 +45,6 @@ public class LoginHelper {
 	private void testEnvironment(int num1, int num2) {
 		// TODO Auto-generated method stub
 		System.out.println(num2);
-		System.out.println(num1+num2);
-		System.out.println(num2);
-		System.out.println(num1+num2);
 	}
 
 	public List<CodeCoverage> xmlParseResult() throws FileNotFoundException, SAXException, IOException {
@@ -105,5 +102,10 @@ public class LoginHelper {
 		}
 		return arrayRst;
 	}
+	
+	public boolean isGreaterVal(int num1, int num2){
+		
+        return num1 > num2;
+    }
 	
 }
