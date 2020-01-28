@@ -6,7 +6,9 @@ There are two code coverage report generated
 
 1) Cobertura
 
-mvn cobertura:cobertura
+Html report - mvn cobertura:cobertura
+Xml report - mvn cobertura:cobertura -Dcobertura.report.format=xml
+
 
 2) Jacoco
 
