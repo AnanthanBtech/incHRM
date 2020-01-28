@@ -7,6 +7,7 @@ There are two code coverage report generated
 1) Cobertura
 
 Html report - mvn cobertura:cobertura
+
 Xml report - mvn cobertura:cobertura -Dcobertura.report.format=xml
 
 
